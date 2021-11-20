@@ -1,0 +1,86 @@
+%YAML:1.0
+---
+enemy_colour: 0
+firing_rate: 20
+gun_height: 0.
+pitch_k: 0.
+ArmorDetect_lightbarthre: 151
+EnergyBuffDetect_gray_thre: 29
+EnergyBuffDetect_split_thre: 32
+EnergyBuffDetect_dialesize: 5
+EnergyBuffDetect_erodesize: 1
+DebugWork: 0
+lob_yaw_offset: 0.
+lob_pitch_offset: 0.
+VideoRecordWork: 0
+camera:
+   -
+      id: 0
+      fps: 100.
+      width: 1440
+      height: 1080
+      exposure_red: 2000
+      exposure_blue: 2000
+      gain: 4
+      brightness: -1
+      saturation: -1
+      contrast: -1
+      gamma: 4.3999999761581421e-01
+      sharpness: -1
+      black_level: 240
+      balance_value: -1
+      balance_red: -1
+      balance_green: -1
+      balance_blue: -1
+      matrix: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 1.7807434459272274e+03, 0., 7.6960844596180380e+02, 0.,
+             1.7803911790618981e+03, 5.6487728526850390e+02, 0., 0., 1. ]
+      dist_coeffs: !!opencv-matrix
+         rows: 5
+         cols: 1
+         dt: d
+         data: [ -5.6691061499538720e-01, 3.0166207045225391e-01,
+             -1.6342028316591773e-03, -2.3022236689513101e-03,
+             -1.8002283879374695e-01 ]
+      save_res: 0
+      save_runlog: 0
+      video_fps: 30
+      video_path: "../videos/1/"
+   -
+      id: 1
+      fps: 100.
+      width: 1440
+      height: 1080
+      exposure_red: 800
+      exposure_blue: 800
+      gain: -1
+      brightness: -1
+      saturation: -1
+      contrast: -1
+      gamma: 2.
+      sharpness: -1
+      black_level: 280
+      balance_value: -1
+      balance_red: -1
+      balance_green: -1
+      balance_blue: -1
+      matrix: !!opencv-matrix
+         rows: 3
+         cols: 3
+         dt: d
+         data: [ 1.7807434459272274e+03, 0., 7.6960844596180380e+02, 0.,
+             1.7803911790618981e+03, 5.6487728526850390e+02, 0., 0., 1. ]
+      dist_coeffs: !!opencv-matrix
+         rows: 5
+         cols: 1
+         dt: d
+         data: [ -5.6691061499538720e-01, 3.0166207045225391e-01,
+             -1.6342028316591773e-03, -2.3022236689513101e-03,
+             -1.8002283879374695e-01 ]
+      save_res: 0
+      save_runlog: 0
+      video_fps: 30
+      video_path: "../videos/1/"
