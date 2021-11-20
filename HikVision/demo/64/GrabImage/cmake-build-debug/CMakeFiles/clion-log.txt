@@ -1,0 +1,4 @@
+/home/greed/下载/clion-2018.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/greed/桌面/test/HikVision/demo/64/GrabImage
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/greed/桌面/test/HikVision/demo/64/GrabImage/cmake-build-debug

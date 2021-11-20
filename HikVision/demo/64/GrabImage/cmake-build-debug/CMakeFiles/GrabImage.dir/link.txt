@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/GrabImage.dir/GrabImage.cpp.o  -o GrabImage  -L/home/greed/视觉/CODE_SHENZHEN/HERO/TDT_Soldier/HikVision/lib64 -Wl,-rpath,/home/greed/视觉/CODE_SHENZHEN/HERO/TDT_Soldier/HikVision/lib64 -pthread -lMvCameraControl -lMVGigEVisionSDK -lMVRender -lMvUsb3vTL 

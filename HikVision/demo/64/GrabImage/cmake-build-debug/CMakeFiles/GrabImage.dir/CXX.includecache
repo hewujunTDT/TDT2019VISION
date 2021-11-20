@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/greed/桌面/test/HikVision/ImageProcess/CameraParams.h
+PixelType.h
+/home/greed/桌面/test/HikVision/ImageProcess/PixelType.h
+
+/home/greed/桌面/test/HikVision/ImageProcess/MvCameraControl.h
+MvErrorDefine.h
+/home/greed/桌面/test/HikVision/ImageProcess/MvErrorDefine.h
+CameraParams.h
+/home/greed/桌面/test/HikVision/ImageProcess/CameraParams.h
+
+/home/greed/桌面/test/HikVision/ImageProcess/MvErrorDefine.h
+
+/home/greed/桌面/test/HikVision/ImageProcess/PixelType.h
+stdint.h
+-
+
+/home/greed/桌面/test/HikVision/demo/64/GrabImage/GrabImage.cpp
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+stdlib.h
+-
+pthread.h
+-
+MvCameraControl.h
+/home/greed/桌面/test/HikVision/demo/64/GrabImage/MvCameraControl.h
+
